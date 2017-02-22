@@ -29,8 +29,7 @@ public class Students {
         this.matricula = matricula;
         this.sports = new ArrayList();
     }
-
-   
+    
     public String getName() {
         return name;
     }
