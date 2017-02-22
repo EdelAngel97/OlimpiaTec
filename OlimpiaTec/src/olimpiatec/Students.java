@@ -56,7 +56,7 @@ public class Students {
         return false;
     }
     public String getSports() {
-        String list = "Sports=";
+        String list = "Sport=";
         for (Sports temp : this.sports) {
             list+=temp.getName()+",";
         }
